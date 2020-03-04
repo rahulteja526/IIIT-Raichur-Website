@@ -251,13 +251,48 @@
 							<div class="team">
 								<div class="team-image">
 									<div class="container">
+										
+										<style>
+											.container {
+ 		 position: relative;
+  	         width: 300px;
+                 }
+
+		.overlay {
+ 		 position: absolute;
+  		bottom: 300px;
+  		left: 0;
+  		right: 0;
+  		background-color: #008CBA;
+  		overflow: hidden;
+ 	 	width: 300px;
+  		height:0;
+  		transition: .5s ease;
+		}
+
+		.container:hover .overlay {
+  		bottom: 0;
+ 	 	height: 300px;
+		}
+
+		.text {
+  		color: white;
+  		font-size: 10px;
+  		position: absolute;
+  		top: 300px;
+  		left: 300px;
+  		-webkit-transform: translate(-300px, -300px);
+  		-ms-transform: translate(-300px, -300px);
+  		transform: translate(-300px, -300px);
+  		text-align: center;
+		}
+											
+										</style>
 										  <img src="/img/xposure.jpeg" height="300" width="300" alt="Xposure">
   											<div class="overlay">
     												<div class="text">To capture all the good memories, a photography club is a must.The aim of the club is to organise various workshops, photowalks, sessions, and contests to encouraĀe and develop the modern photographic skills in the students.</div>
   											</div>
 									</div>
-
-									<img src="/img/xposure.jpeg" height="250" width="250" alt="Xposure">
 								</div>
 								<div class="team-desc">
 									<div class="team-title"><h4>Xposure</h4><span>Siddharth Saini<br></span><span style="color: coral">9996130681</span></div>
