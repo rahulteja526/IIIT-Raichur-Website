@@ -33,6 +33,28 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/logo-black-solid.png">
 	<style>
+	#customers {
+ 	 font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	  border-collapse: collapse;
+	  width: 100%;
+	}
+
+	#customers td, #customers th {
+	  border: 1px solid #ddd;
+  	padding: 8px;
+	}
+
+	#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+	#customers tr:hover {background-color: #ddd;}
+
+	#customers th {
+  	padding-top: 12px;
+  	padding-bottom: 12px;
+  	text-align: left;
+  	background-color: #4CAF50;
+  	color: white;
+	}	
 	blink {
         animation: blinker 1s linear infinite;
         color: blue;
@@ -138,7 +160,7 @@
 			</ul></h4>
   -->
 <!-- Table started -->    
-		 <table border="1" style="width:150% ; text-color:black">
+		 <table style="width:100%" id="customers">
                     <tr>
                         <th style="width:30%">Member Name</th>
                         <th style="width:20%">Role</th>
@@ -147,11 +169,11 @@
                         <th style="width:10%">Contact</th>
                     </tr>
       		    <tr>
-                        <th style="width:30%">Prof. B.S. Murty</th>
-                        <th style="width:20%">Mentor Director</th>
-                        <th style="width:10%"></th>
-                        <th style="width:25%">director@iith.ac.in</th>
-                        <th style="width:10%"></th>
+                        <td style="width:30%">Prof. B.S. Murty</th>
+                        <td style="width:20%">Mentor Director</th>
+                        <td style="width:10%"></th>
+                        <td style="width:25%">director@iith.ac.in</th>
+                        <td style="width:10%"></th>
                     </tr>
                     <tr>
                         <td style="width:30%">Prof. Ch. Subrahmanyam</td>
@@ -193,7 +215,7 @@
                     <tr>
                         <td style="width:30%">Dr. Subrahmanyam Kalyanasundaram</td>
                         <td style="width:20%">Faculty in charge of Academics</td>
-                        <td style="width:10%"></td>
+                        <td style="width:10%">B-402</td>
                         <td style="width:25%">subruk@iith.ac.in</td>
                         <td style="width:10%">040-2301 7053</td>
                     </tr>
