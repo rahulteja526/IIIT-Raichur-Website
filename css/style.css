@@ -1,5 +1,4 @@
 /**************** extend css start ****************/
-
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,400i,500,600,700,800|Roboto");
 /* line 8, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_extends.scss */
 .btn_4 {
@@ -11,11 +10,6 @@
 /**************** extend css start ****************/
 /**************** common css start ****************/
 /* line 3, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_common.scss */
-/*Hide Scrollbar on Chromium based browsers*/
-body::-webkit-scrollbar {
-  display: none;
-}
-/****/
 body {
   font-family: "Barlow Condensed", sans-serif;
   padding: 0;
@@ -2185,16 +2179,15 @@ ul {
 
 /**************menu part start*****************/
 /* line 4, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_menu.scss */
-.main_menu .navbar-brand  {
+.main_menu .navbar-brand {
   padding-top: 0rem;
-  height: 72px;
-
+  height: 70px;
 }
 
 @media (max-width: 991px){
-  .main_menu .navbar-brand {
-    height: 60px;
-  }
+  .main_menu .navbar-brand{
+  height: 60px;
+}
 }
 
 @media (max-width: 576px) {
@@ -2272,7 +2265,6 @@ ul {
   max-width: 150px;
 }
 
-
 /* line 64, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_menu.scss */
 .menu_fixed .main-menu-item ul li .nav-link {
   padding: 30px 20px;
@@ -2346,6 +2338,7 @@ ul {
   .main_menu .main-menu-item .nav-item a {
     padding: 8px 15px !important;
   }
+}
 
 /**************** banner part css start ****************/
 /* line 2, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_banner.scss */
