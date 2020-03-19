@@ -2181,13 +2181,14 @@ ul {
 /* line 4, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_menu.scss */
 .main_menu .navbar-brand {
   padding-top: 0rem;
-  height: 70px;
+  height: 67px;
 }
+
 
 @media (max-width: 991px){
   .main_menu .navbar-brand{
   height: 60px;
-}
+  }
 }
 
 @media (max-width: 576px) {
@@ -2233,7 +2234,7 @@ ul {
 .main_menu .main-menu-item ul li .nav-link {
   color: #2f373d;
   font-size: 18px;
-  padding: 30px 20px;
+  padding: 30px 18px;
   font-family: "Barlow Condensed", sans-serif;
   text-transform: uppercase;
 }
@@ -2267,7 +2268,7 @@ ul {
 
 /* line 64, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_menu.scss */
 .menu_fixed .main-menu-item ul li .nav-link {
-  padding: 30px 20px;
+  padding: 30px 18px;
 }
 
 /* line 67, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_menu.scss */
