@@ -5266,7 +5266,7 @@ input:focus {
 .footer-area {
   background-color: #162b45;
   background-image: url(../img/footer_overlay.png);
-  padding: 30px 0px 0px;
+  padding: 40px 0px 0px;
   position: relative;
   margin-top: -10px;
 }
@@ -5274,7 +5274,7 @@ input:focus {
 @media (max-width: 991px) {
   /* line 2, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_footer.scss */
   .footer-area {
-    padding: 158px 0px 0px;
+    padding: 40px 0px 0px;
   }
 }
 
