@@ -2162,14 +2162,14 @@ ul {
   .sub_menu .sub_menu_social_icon {
     text-align: center;
     float: none;
-    margin-top: 15px;
+    margin-top: 30px;
   }
 }
 
 /* line 28, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_sub_menu.scss */
 .sub_menu .sub_menu_social_icon a {
   color: #fff;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 /* line 31, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_sub_menu.scss */
@@ -2260,7 +2260,7 @@ ul {
 
 /* line 64, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_menu.scss */
 .menu_fixed .main-menu-item ul li .nav-link {
-  padding: 25px 25px;
+  padding: 30px 30px;
 }
 
 /* line 67, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_menu.scss */
@@ -4786,7 +4786,7 @@ input:focus {
   float: right;
   padding-top: 20px;
 }
-
+https://iiitr.netlify.com/about.html
 /*=================== contact banner start ====================*/
 /* line 3, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_contact.scss */
 .dropdown .dropdown-menu {
