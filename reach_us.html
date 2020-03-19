@@ -33,28 +33,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/logo.png">
 	<style>
-	#customers {
- 	 font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-	  border-collapse: collapse;
-	  width: 100%;
-	}
-
-	#customers td, #customers th {
-	  border: 1px solid #ddd;
-  	padding: 8px;
-	}
-
-	#customers tr:nth-child(even){background-color: #f2f2f2;}
-
-	#customers tr:hover {background-color: #ddd;}
-
-	#customers th {
-  	padding-top: 12px;
-  	padding-bottom: 12px;
-  	text-align: left;
-  	background-color: #4CAF50;
-  	color: white;
-	}	
 	blink {
         animation: blinker 1s linear infinite;
         color: blue;
@@ -67,7 +45,7 @@
 </head>
 <body>
     <!--::header part start::-->
-   <header class="main_menu">
+    <header class="main_menu">
         <div class="main_menu_iner">
             <div class="container">
                 <div class="row align-items-center">
@@ -81,7 +59,8 @@
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
                                     	    <a class="nav-link" href="index.html" style="color:#fe5c24;font-weight:500;">Home</a>
-					</li>
+				     </li>
+                                    
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -95,7 +74,7 @@
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                             <a class="dropdown-item" href="admission.html">Admission</a>
                                             <a class="dropdown-item" href="program.html">Program</a>
-					    <a class="dropdown-item" href="department.html">Department</a>
+					    <a class="dropdown-item" href="department.html">Department</a>	
 					    <a class="dropdown-item" href="curriculum.html">Curriculum</a>
                                         </div>
                                     </li>
@@ -116,7 +95,7 @@
 				      <li class="nav-item">
                                         <a class="nav-link" href="news.html" style="color:#fe5c24;font-weight:500;">News</a>
                                     </li>
-	
+		
                                 </ul>
                             </div>
                         </nav>
@@ -127,14 +106,14 @@
     </header>
     <!-- Header part end-->
     <!-- breadcrumb start-->
-    <section class="breadcrumb breadcrumb_bg">
+    <section class="breadcrumb breadcrumb_bg" style="padding-bottom:130px ">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcrumb_iner">
                         <div class="breadcrumb_iner_item">
-                            <h2>Administration</h2>
-                            <p> <a href="index.html">About</a> <span>-</span>Administration</p>
+                            <h2>How to Reach</h2>
+                            <p> <a href="index.html">Home</a> <span>-</span>How to Reach</p>
                         </div>
                     </div>
                 </div>
@@ -142,109 +121,75 @@
         </div>
     </section>
     <!-- breadcrumb start-->
-    <!-- about part start-->
-    <section class="about_part section_bg section_padding" style="padding-bottom:130px ">
-        <div class="container">
-<!-- Table is to made at the place of this
-	      <div class="row align-items-center justify-content-between">
-                <div class="col-md-10 col-lg-10">
-                    <div class="about_text">
-
-				<h4><ul class="unordered-list">
-				<li><h3>Mentor Director: Prof. B.S. Murty</h3></li><br>
-				<li>Dean Academics: Prof. Ch. Subrahmanyam (Dept of Chemistry, IIT Hyderabad)</li><br>
-				<li>Dean Administration: Prof. Raja Banerjee (Dept of Mechanical & Aerospace Engineering ,IIT Hyderabad)</li><br>
-				<li>Dean Student Affairs: Prof. P. Rajilakshmi (Dept of Electrical Engineering, IIT Hyderabad)</li><br>
-				<li>Dean Planning: Prof. Sireesh Saride (Dept of Civil Engineering, IIT Hyderabad)</li><br>
-				<li>Faculty in-charge of Students: Prof. Prem Pal (Dept of Physics, IIT Hyderabad)</li><br>
-				<li>Faculty in charge of Academics: Dr. Subrahmanyam Kalyanasundaram (Dept of Computer Science and Engineering, IIT Hyderabad)</li><br>
-				<li>Public Relations Officer: Mrs. Mitalee Agrawal</li><br>
-				
-			</ul></h4>
-  -->
-<!-- Table started -->    
-		 <table id="customers">
-                    <tr>
-                        <th >Member Name</th>
-                        <th >Role</th>
-                        
-                        <th >Email</th>
-                        <th >Contact</th>
-                    </tr>
-      		    <tr>
-                        <td >Prof. B.S. Murty</th>
-                        <td >Mentor Director</th>
-                        
-                        <td >director@iith.ac.in</th>
-                        <td >040 – 2301 6002</th>
-                    </tr>
-                    <tr>
-                        <td style="width:30%">Prof. Ch. Subrahmanyam</td>
-                        <td style="width:20%">Dean of Academic Affairs</td>
-                        
-                        <td style="width:25%">dean.acad@iith.ac.in</td>
-                        <td style="width:10%">040 – 2301 6026</td>
-                    </tr>
-                    
-                    <tr>
-                        <td style="width:30%">Prof. Raja Banerjee</td>
-                        <td style="width:20%">Dean of Administration</td>
-                        
-                        <td style="width:25%">dean.admin@iith.ac.in</td>
-                        <td style="width:10%">040 – 2301 6004</td>
-                    </tr>
-		   <tr>
-                        <td style="width:30%">Dr. P Rajalakshmi</td>
-                        <td style="width:20%">Dean of Student Affairs</td>
-                        
-                        <td style="width:25%">dean.students@iith.ac.in</td>
-                        <td style="width:10%">040 – 2301 6089</td>
-                    </tr>
-                    	 
-		    <tr>
-                        <td style="width:30%">Prof. Sireesh Saride</td>
-                        <td style="width:20%">Dean of Planning</td>
-                        
-                        <td style="width:25%">dean.plan@iith.ac.in</td>
-                        <td style="width:10%">040 – 2301 6104</td>
-                    </tr> 
-          	     <tr>
-                        <td style="width:30%">Prof. Prem Pal</td>
-                        <td style="width:20%">Faculty in-charge of Students</td>
-                        
-                        <td style="width:25%">prem@iith.ac.in</td>
-                        <td style="width:10%">040 - 2301 6035</td>
-                    </tr>
-                    <tr>
-                        <td style="width:30%">Dr. Subrahmanyam Kalyanasundaram</td>
-                        <td style="width:20%">Faculty in charge of Academics</td>
-                        
-                        <td style="width:25%">subruk@iith.ac.in</td>
-                        <td style="width:10%">040 - 2301 7053</td>
-                    </tr>
-                   <tr>
-                        <td style="width:30%"> Mrs. Mitalee Agrawal</td>
-                        <td style="width:20%">Public Relations Officer</td>
-                        
-                        <td style="width:25%">pro@iith.ac.in</td>
-                        <td style="width:10%">040 - 2301 6152</td>
-                    </tr>
-		    </table>
-        </div>
-    </section>
-    <!-- about part start-->
+    <section class="about_part section_bg section_padding">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-md-10 col-lg-12">
+                        <div class="about_text">
+							<h4>DIRECTIONS TO REACH IIIT RAICHUR CAMPUS @ IIT HYDERABD</h4>
+								<p style="font-weight:450">
+								All the activities of IIIT Raichur are running in new campus of IIT Hyderabad. All classes and academic activities are being conducted in IITH Kandi Campus. Accomodation is also provided in IIT Hyderabad Campus.
+								</p>
+								<p style="font-weight:450"><strong>Kandi Campus:</strong> It is located on the National Highway 9 at Kandi village near Sangareddy town in Telangana.</p>
+							<br>
+                            <h4>To reach IIT Hyderabad Campus</h4>
+							<p style="color: cornflowerblue;font-weight:450"><strong>From RGI Airport:</strong><p>
+							<p style="font-weight:450">Kandi campus is located at a distance of about 65 kms from the airport. It is possible to hire taxi (between Rs. 1200/- to Rs. 1400/-, depending on the vehicle used) to reach the campus. It takes about 1 hr 20 min drive from RGI Airport to IIT Kandi campus (via Jawaharlal Nehru Outer Ring rd).</p>
+							<p style="font-weight:450">Airport – IITH: 65 KMS (1 hr 20mins)</p>
+							<p><strong>1. Airport – outer ring road towards Gachibowli – BHEL – Patancheru – Isnapur – IITH(Kandi)</strong></p>
+							<p><strong>2. Airport – Outer Ring Road Exit Patancheru – Isnapur – IITH .</strong></p>
+							<p style="font-weight:450"><strong>Bus route:</strong> Reach Mehdipatnam (27 km from Airport ) by bus then <strong>board 217 or 222 towards Patancheru</strong> (27kms from Mehdipatnam). Then board bus towards Sangareddy. IIT Hyderabad is located 5km ahead of Sangareddy.<p>
+							<p>RGI Airport - Mehdipatnam - Patancheru - Isnapur cross road - IIT Hyderabad - Sangareddy.</p>
+							<p style="color: cornflowerblue;font-weight:450"><strong>From Mahatma Gandhi Bus station:</strong></p>
+							<p style="font-weight:450">IIT Hyderabad is located around 53 kms from MGBS. Buses (express) are available directly to Sangareddy from MGBS. Buses going towards Zaheerabad, Bidar also reach Sangareddy. IIT Hyderabad is located 5km ahead of Sangareddy. These buses have stops only at Patancheru and Sangareddy. There is a request bus stop at IIT Hyderabad. You can also reach Patancheru from CBS bus stop (located just outside MGBS) by boarding the bus 218C.</p>
+							<p>MGBS - (approx 35kms) Patancheru - (approx 18kms)- IIT Hyderabad - Sangareddy.</p>
+							<p style="color:cornflowerblue;font-weight:450"><strong>From Secunderabad Railway Station:</strong></p>
+							<p style="font-weight:450">Secunderabad Station is located about 52 kms from campus. You can hire pre-paid taxis at station. The typical cost will be between Rs. 1200/- to 1400/-</p>
+							<p style="font-weight:450"><strong>Bus route:</strong> Board the bus 219 or 226 towards Patancheru then board the bus towards Sangareddy.</p>
+							<p>Secunderabad – IITH : 52 KMS (Time : 1.30 hrs.)</p>
+							<p>Secunderabad – Bowenpally – Balanagar – Kukatpally – Miyapur –Lingampally (BHEL) 	- Patancheru – Isnapur – IITH.</p>
+							<p style="color: cornflowerblue;font-weight:450"><strong>From Kacheguda Railway Station:</strong></p>
+							<p style="font-weight:450">Kacheguda station is located about 53 kms from IIT Hyderabad. You can hire a taxi which will cost Rs 700/- to 800/-.</p>
+							<p style="font-weight:450"><strong>Bus route:</strong> There are no direct buses from Kacheguda to Patancheru. Reach Koti (5kms from Kacheguda) by <strong>3SS, 3z, 352</strong>. Then board the <strong>bus 218, 218C, 217D, 225D 222 or 222A</strong> to reach Patancheru. Then board the bus towards Sangareddy. IIT Hyderabad is located 5km ahead of Sangareddy. There is are quest stop at IIT Hyderabad.</p>
+							<p>Kachiguda (6kms )- Koti –(approx. 35 km )- Patancheru - Muthangi - Isnapur cross road - IIT Hyderabad - Sangareddy.</p>
+							<p style="color: cornflowerblue;font-weight:450"><strong>From Nampally Railway Station:</strong></p>
+							<p style="font-weight:450">Nampally station is located about 50 kms from IIT Hyderabad. You can hire a taxi which will cost Rs 700/- to 800/-.</p>
+							<p style="font-weight:450"><strong>Bus route:</strong> Board the bus 218 or 225 towards Patancheru. Then board the bus towards Sangareddy. IIT Hyderabad is located 5km ahead of Sangareddy. There is a request stop at IIT Hyderabad.</p>
+							<p>Nampally - (approx. 32 km ) Patancheru - Muthangi \rightarrow Isnapur cross road - IIT Hyderabad - Sangareddy.</p>
+							<p style="color: cornflowerblue;font-weight:450"><strong>Other Routes:</strong></p>
+							<p style="font-weight:450"><strong>Gachibowli – IIT Hyderabad</strong></p>
+							<p>Via  Lingampally – Patancheru – Isnapur – IITH. (Time 1hr 30 minutes, 25 kms.)</p>
+							<p style="font-weight:450"><strong>Mehdipatnam – IITH : 45 KMS (Time : 1.15 hrs)</strong></p>
+							<p>Mehdipatnam – Haath Statue – Gachibowli – BHEL – Patancheru – Isnapur - IITH.</p>
+							<p style="font-weight:450"><strong>Miyapur – IITH : 30 KMS (45 minutes)</strong></p>
+							<p>Miyapur – Lingampally (BHEL) – Patancheru – Isnapur – IITH.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+	     <div class="col-12">
+                    <iframe name="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3803.16909870289!2d78.12091135098586!3d17.594703287895523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbf74d7593e7b7%3A0x96e0ba6acb5ca6e8!2sAcademic+Block+A%2C+IITH!5e0!3m2!1sen!2sin!4v1520257239564"
+                        width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen=""
+                        class="rounded"></iframe>
+                </div>
+        </section>
+    <!-- ================ contact section start ================= -->
+    <!-- ================ contact section end ================= -->
+    <!--::subscribe area start::-->
+    <!--::subscribe area end::-->
     <!-- footer part start-->
-   <footer class="footer-area">
+    <footer class="footer-area">
         <div class="container-fluid">
             <div class="row justify-content-center">
                 <div class="col-lg-12">
 			<! The footers for the social media accounts>
 			<h1 style="text-align:center ; ">
-			<a href="https://www.facebook.com/iiitraichur" class="fa fa-facebook" class="text-info">&nbsp;</a>
+			<a href="https://www.facebook.com/iiitraichur" class="fa fa-facebook" class="text-info">&nbsp;   <!-- This tag will create a space --></a>
 			<a href="https://twitter.com/IIITRaichur" class="fa fa-twitter" class="text-info">&nbsp;</a>
 			<a href="https://www.linkedin.com/showcase/indian-institute-of-information-technology-raichur/" class="fa fa-linkedin" class="text-info">&nbsp;</a>
 			<a href="https://www.instagram.com/iiit_raichur/" class="fa fa-instagram" class="text-info">&nbsp;</a>
-			<a href="mailto:info@iiitr.ac.in" class="fa fa-envelope" class="text-info">&nbsp;</a>
+			<a href="mailto:info@iiitr.ac.in" class="fa fa-envelope" class="text-info">&nbsp;</a>	
 			</h1> 
 			<div class="row">
 			 	<div class="text-center text-light col-lg-6">© 2020 Indian Institute of Information Technology Raichur, Karnataka , India. All rights reserved.
@@ -252,12 +197,12 @@
 				<div class="text-center text-light col-lg-6"><a href="contact.html"><h4 style="color : white ">Contact Us<br></h4></a>
 				</div>
 			</div>
-                </div>
+		    </div>
             </div>
         </div>
     </footer>
     <!-- footer part end-->
-    <!-- jquery plugin here-->
+    <!-- jquery plugins here-->
     <!-- jquery -->
     <script src="js/jquery-1.12.1.min.js"></script>
     <!-- popper js -->
