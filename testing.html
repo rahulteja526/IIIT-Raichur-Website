@@ -33,6 +33,52 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/logo.png">
 	<style>	
+		
+		
+	.large-header {
+   position: relative;
+   width: 100%;
+   background: #111;
+   overflow: hidden;
+   background-size: cover;
+   background-position: center center;
+   z-index: 1;
+}
+
+.demo .large-header {
+   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");
+}
+
+.main-title {
+   position: absolute;
+   margin: 0;
+   padding: 0;
+   color: #F9F1E9;
+   text-align: center;
+   top: 50%;
+   left: 50%;
+   -webkit-transform: translate3d(-50%, -50%, 0);
+   transform: translate3d(-50%, -50%, 0);
+}
+
+.demo .main-title {
+   text-transform: uppercase;
+   font-size: 4.2em;
+   letter-spacing: 0.1em;
+}
+
+.main-title .thin {
+   font-weight: 200;
+}
+
+@media only screen and (max-width: 768px) {
+   .demo .main-title {
+      font-size: 3em;
+   }
+}
+		
+		
+		
 		.overlay {
   		position: absolute;
   		bottom: 300px;
@@ -44,15 +90,6 @@
   		height:0;
   		transition: .5s ease;
 		}
-		
-		.cover_photo {
-		  height: 90vh;
-		  min-height: 450px;
-  		  background-image: url('/img/student.jpg');
-  		  background-size: cover;
-	      	  background-position: center;
-  		  background-repeat: no-repeat;
-		  }
 	
 	blink {
         animation: blinker 1s linear infinite;
@@ -130,6 +167,17 @@
    <!-- Header for the cover photo -->
     <section class="about_part section_bg section_padding" style="padding-bottom:130px ">
         <div class="container">
+		
+		
+	<div class="container demo">
+   		<div class="content">
+      			<div id="large-header" class="large-header">
+         		<canvas id="demo-canvas"></canvas>
+         		<h1 class="main-title"><span class="thin">Students</span>IIITR</h1>
+      			</div>
+   		</div>
+	</div>	
+		
 	<div class="row">
 <!--Slider part starts -->
 		<div class="col-md-7 col-lg-7">		
@@ -194,7 +242,7 @@
 							</div>  <!-- Team -->
 						</div>   <!-- column -->
 							
-						<div class="col-lg-3 col-md-6 bottommargin" style="padding-bottom: 25px;">
+						<div class="col-lg-3 col-md-6 bottommargin" style="padding-bottom: 10px; padding-top: 10px;">
 
 							<div class="team p-2 shadow">
 								<div class="team-image shadow">
