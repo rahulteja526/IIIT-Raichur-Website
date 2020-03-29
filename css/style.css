@@ -1,11 +1,5 @@
 /**************** extend css start ****************/
 
-/*Hide Scrollbar on Chromium based browsers*/
-body::-webkit-scrollbar {
-  display: none;
-}
-/****/
-
 @import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,400i,500,600,700,800|Roboto");
 /* line 8, ../../01 cl html template/New folder/May 2019/175  Supreme Industry/Supreme Industry Html/sass/_extends.scss */
 .btn_4 {
