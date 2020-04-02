@@ -34,6 +34,73 @@
     <link rel="shortcut icon" href="img/logo.png">
 	<style>	
 		
+   /* CSS Files for dropdown */
+   select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-overflow: '';
+    color: #fff !important;
+}
+select option {
+  color: #000 !important;
+}
+select::-ms-expand {
+    display: none;
+}
+
+
+.sectional-nav {
+  background-color: #202a35;
+}
+
+.sectional-nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  text-transform: uppercase;
+  margin-right: 12px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1;
+  padding: 15px 10px;
+}
+.sectional-nav ul li:first-of-type {
+  padding: 30px 10px;
+}
+.sectional-nav ul li:hover {
+  background-color: #0479c3;
+  cursor: pointer;
+  color: #fff;
+}
+.sectional-nav ul li a {
+  color: #fff;
+}
+.sectional-nav ul li:hover a {
+  color: #eeeeee;
+}
+
+
+@media screen and (max-width: 992px) {
+  .sectional-nav ul li {
+    font-size: 16px;  
+  }
+  .sectional-nav ul li {
+    padding: 20px 5px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sectional-nav #sectional_nav {
+    height: 60px;
+    width: 100%;
+    font-size: 18px;
+    background: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24' height='24' viewBox='0 0 24 24'><path fill='#fff' d='M7.406 7.828l4.594 4.594 4.594-4.594 1.406 1.406-6 6-6-6z'></path></svg>");
+    background-position: 98% 50%;
+    background-repeat: no-repeat;
+  }
+}		
+   /* CSS part for dropdown ended */
+ 		
+		
 		
 	.large-header {
    position: relative;
@@ -441,40 +508,31 @@
 	
     <!-- footer part start-->
     <footer class="footer-area">
-        <div class="container-fluid">
-	   
-	<div class="row">	
-	  <div class="col-lg-4 col-mg-4">
-	       <div class="card">
-                            <div class="card-header" id="footer1">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-dark collapsed" data-toggle="collapse"
-                                        data-target="#footer1" aria-expanded="false" aria-controls="footer1">
-                                        <h5 class="title"> Quick Links</h5>
-                                    </button>
-                                    <a class="expand-icon" data-toggle="collapse" data-target="#footer1"
-                                        aria-expanded="false" aria-controls="footer1"><i class="fa fa-plus"
-                                            aria-hidden="true"></i></a>
-                                </h5>
-                            </div>
-                            <div id="footer1" class="collapse" aria-labelledby="footer1"
-                                data-parent="#accordion">
-                                <div class="card-body">
-                                    <ul> 
-                                        <li><a href="/tenders/">Tender Invitations</a></li>
-                                        <li><a href="http://intranet.iith.ac.in" target="_blank">Intranet</a></li>
-                                        <li><a href="/emergency_contacts/">Emergency Contacts</a></li>
-                                        <li><a href="/web_team/">Website Team</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                   </div>
-                </div>	
-	    </div>
-	
-	     	
-		
+        <div class="container-fluid">	     	
             <div class="row justify-content-center">
+		    
+		<div class="col-lg-4">
+			<div class="sectional-nav clearBoth">
+	<div class="container">
+	  <ul class="hidden-sm-down p-0 d-flex align-items-center justify-content-between">
+		<li><a href="https://www.solodev.com/pricing/">Pricing</a></li>
+		<li><a href="https://www.solodev.com/product/create.stml">Product</a></li>
+		<li><a href="https://www.solodev.com/resources/">Resources</a></li>
+		<li><a href="https://www.solodev.com/customers/">Customersy</a></li>
+		<li><a href="https://www.solodev.com/blog/">Blog</a></li>
+	  </ul> 
+	</div>
+	<select name="sectional_nav" id="sectional_nav" class="form-control hidden-md-up" onchange="window.location.href=this.value">
+	  <option value="0">Navigate to...</option>
+	  <option value="https://www.solodev.com/pricing/">Pricing</option>
+	  <option value="https://www.solodev.com/product/create.stml">Product</option>
+	  <option value="https://www.solodev.com/resources/">Resources</option>
+	  <option value="https://www.solodev.com/customers/">Customers</option>
+	  <option value="https://www.solodev.com/blog/">Blog</option>
+	</select>
+</div>
+		</div>
+		    
                 <div class="col-lg-12">
 			<! The footers for the social media accounts>
 			<h1 style="text-align:center ; ">
